@@ -50,7 +50,7 @@ a {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin: 40px auto;
+    margin: 80px auto;
 }
 
 .left {
@@ -64,6 +64,8 @@ a {
 .container-lower img {
     width: 600px;
     height: 300px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 2px goldenrod;
 }
 
 .logo {
@@ -97,4 +99,31 @@ a {
     border-right: #F9FAF8 ;
     font-weight: bold;
     border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 24px 0;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 40px;
+}
+
+.photos img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 24px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.sub {
+    max-width: 200px;
 }
